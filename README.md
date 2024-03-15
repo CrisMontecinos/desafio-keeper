@@ -1,8 +1,27 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto hecho con React y Vite.
 
-Currently, two official plugins are available:
+## Instrucciones de instalación y ejecución
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Requisitos previos
+
+- Node.js >= 14 instalado en tu sistema.
+- Gestor de paquetes npm (se instala automáticamente con Node.js).
+
+### Pasos para ejecutar el proyecto
+
+1. **Clona este repositorio:**
+
+   ```bash
+    git clone https://github.com/CrisMontecinos/desafio-keeper.git
+
+    - cd desafio-keeper
+
+    - npm install
+
+    - npm run dev
+
+    - Esto iniciará el servidor de desarrollo de Vite y abrirá una ventana del navegador con la aplicación en el puerto indicado
+
+    Recuerda personalizar los comandos y los nombres de los archivos según la estructura y configuración de tu proyecto.
