@@ -43,7 +43,7 @@ function Header() {
               value={searchTerm}
               onChange={handleSearchChange}
             />
-            <button onClick={handleSearch} className="header-profile-button"> Buscar</button>
+            <button onClick={handleSearch} className="header-profile-button-search"> Buscar</button>
           </div>
         </div>
         <div className='profile-wrapper'>
