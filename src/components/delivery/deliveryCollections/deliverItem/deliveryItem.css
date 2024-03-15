@@ -1,0 +1,29 @@
+.delivery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea los elementos en el centro horizontalmente */
+    text-align: center; /* Alinea el texto en el centro horizontalmente */
+}
+
+.delivery-item-cover {
+    height: 190px;
+    width: 190px;
+    background-color: var(--primary-bg);
+    box-shadow: var(--collecion-shadow);
+    border-radius: 100%;
+}
+
+.delivery-item-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.delivery-item-title {
+    font-size: 20px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 6px;
+}

@@ -1,0 +1,90 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.header-logo{
+    height: 27px;
+    max-width: 140px;
+    margin-right: 24px;
+}
+
+.header-right{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+.header-location-search-container{
+    height: 54px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: var(--primary-box-shadow);
+    border: 1px solid var(--border-white);
+    width: 80%;
+    background-color: var(--primary-bg);
+}
+
+.location-wrapper{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.location-icon-name{
+    display: flex;
+    color: var(--keeper-gray);
+}
+
+.location-icon{
+    color: var(--keeper-green);
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.location-search-separator{
+    height: 20px;
+    border: 0.5px solid var(--gray);
+}
+
+.header-searchBar{
+    display: flex;
+    flex: 2;
+    
+}
+
+.search-icon{
+    font-size: 20px;
+    color: var(--keeper-gray);
+    margin: 0px 12px;
+}
+.search-input{
+    border: none;
+    outline: none;
+    width: 80%;
+    font-size: 14px;
+}
+
+.profile-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    align-items: center;
+}
+
+.header-profile-button{
+    background-color: var(--keeper-green);
+    font-family: "Nunito", sans-serif; 
+    color: white; 
+    border: none; 
+    border-radius: 15px; 
+    padding: 4px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
+}

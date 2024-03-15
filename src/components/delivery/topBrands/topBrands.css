@@ -1,0 +1,34 @@
+.top-brand-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea los elementos en el centro horizontalmente */
+    text-align: center; /* Alinea el texto en el centro horizontalmente */
+}
+.top-brands{
+    padding-top:30px;
+    
+}
+
+.top-brands-cover{
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+    background-color: var(--primary-bg);
+    box-shadow:var(--collection-shadow);
+    border: 0.5 px solid var(--birder-whith);
+}
+.top-brands-images{
+    border-radius:inherit;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.top-brands-time{
+    font-size: 15px;
+    color: var(--inactive-text);
+    font-weight: 500;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 6px;
+}
