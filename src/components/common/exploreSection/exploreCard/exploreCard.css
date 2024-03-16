@@ -1,3 +1,11 @@
+.coment-center{
+    display: flex;
+    align-items: center;
+}
+.space-comment{
+    margin-right: 10px;
+
+}
 .explore-card{
     margin: 12px;
     padding: 10px;
@@ -125,4 +133,15 @@
 .approx-price{
     font-size: 14px;
     color: var(-inactive-text);
+}
+
+.button-close{
+    background-color: var(--keeper-gray);
+    font-family: "Nunito", sans-serif; 
+    color: white; 
+    border: none; 
+    border-radius: 15px; 
+    padding: 6px 22px; 
+    font-size: 18px; 
+    cursor: pointer; 
 }

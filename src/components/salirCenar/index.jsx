@@ -11,29 +11,30 @@ const collectionList  =[
   {
     id: 1,
     title:"Lo mejor de santiago",
-    cover: "https://b.zmtcdn.com/data/collections/fbd237478a5d3b6ea08de83c30230cdd_1709811823.png?output-format=webp",
+    cover: "https://b.zmtcdn.com/data/collections/0784cf30fb980b147c9c0f8f3c85a2f3_1709814009.png?output-format=webp",
     places: "116 lugares",
 
   },
   {
     id: 2,
     title:"Para visitar",
-    cover: "https://b.zmtcdn.com/data/collections/2b9361aa328a43b08986f77bbec280bd_1709810698.png",
+    cover: "https://b.zmtcdn.com/data/collections/3b1f56c1936a6bfa702efd28188ebe6f_1688043267.png?output-format=webp",
     places: "15 lugares",
 
   },
   {
     id: 3,
     title:"Lo mejor de las Pizzas",
-    cover: "https://b.zmtcdn.com/data/collections/68113c6bddb038ac936a1f63bcf5262e_1707387644.png",
+    cover: "https://b.zmtcdn.com/data/collections/7e95e91cffeab31fa43e3e4918e724ae_1709814263.png?output-format=webp",
     places: "32 lugares",
 
   },
   {
     id: 4,
-    title:"Lo mejor de santiago",
-    cover: "https://b.zmtcdn.com/data/collections/fbd237478a5d3b6ea08de83c30230cdd_1709811823.png?output-format=webp",
-    places: "116 lugares",
+    title:"Para tomar un descanso",
+    cover: 
+    "https://b.zmtcdn.com/data/collections/68113c6bddb038ac936a1f63bcf5262e_1707387644.png",
+    places: "12 lugares",
 
   },
 

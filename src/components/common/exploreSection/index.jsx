@@ -4,6 +4,7 @@ import './exploreSection.css';
 
 const ExploreSection = ({list, collectionName}) => {
   return (
+<div className='background-explore-section '>
     <div className='max-width explore-section'>
       <div className='collection-title'>{collectionName}</div>
       <div className='explore-grid'>
@@ -12,6 +13,7 @@ const ExploreSection = ({list, collectionName}) => {
       })}
       </div>
     </div>
+</div>
   );
 };
 

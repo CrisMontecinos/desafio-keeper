@@ -1,6 +1,9 @@
+.background-explore-section{
+    background-color: var(--inactive-color);
+}
+
 .explore-section{
     margin-top: 16px;
-    background-color: var(--inactive-color);
 }
 
 .explore-grid{

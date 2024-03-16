@@ -30,9 +30,9 @@ const collectionList  =[
   },
   {
     id: 4,
-    title:"Lo mejor de santiago",
-    cover: "https://b.zmtcdn.com/data/collections/fbd237478a5d3b6ea08de83c30230cdd_1709811823.png?output-format=webp",
-    places: "116 lugares",
+    title:"Para tomar un descaso",
+    cover: "https://b.zmtcdn.com/data/collections/7e95e91cffeab31fa43e3e4918e724ae_1709814263.png?output-format=webp",
+    places: "12 lugares",
 
   },
 
@@ -76,7 +76,7 @@ function VidaNocturna() {
     <div className='max-width'>
       <Filters filterList={nocheFilters}/>
     </div>
-    <ExploreSection list={nocheList} collectionName='Restaurante Nocturnos de santiago'/>
+    <ExploreSection list={nocheList} collectionName='Restaurante Nocturnos y pubs de santiago'/>
   </div>
   )
 }
